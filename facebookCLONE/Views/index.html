@@ -5,10 +5,276 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <style>
+        html{
+            width: 100%;
+            background-color: rgb(233,235,238);
+        }
+        /* NAVIGATION BAR CSS*/
+    .navbar {
+        background-color: rgb(66,103,178);
+        height: 70px;
+        width: 100%;
+        display: flex;
+    }
+    .logo img{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .searchbar{
+        margin-left:25px ;
+        margin-top: 15px;
+        font-family: 'Open Sans', sans-serif;
+        width: 500px;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .sneakpic img{
+        width: 35px;
+        height: 35px;
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+    .secondaryName {
+        text-decoration: none;
+        margin-left:10px;
+        margin-top:25px;
+    }
+    .linkprofile{
+        font-family:'Open Sans', sans-serif ;
+        color:whitesmoke;
+        text-decoration: none;
+    }
+    .separatorbar{
+        margin-left: 10px;
+        border-left: 1px solid rgba(44, 79, 148, 0.493);
+        margin-top: 10px;
+        height:50px;
+
+    }
+    .homelink{
+        margin-left:20px;
+        margin-top: 25px;
+    }
+    .linkhome{
+        text-decoration:none ;
+        color: whitesmoke;
+        font-family:'Open Sans', sans-serif ;
+    }
+    .marketlink{
+        margin-left:10px;
+        margin-top: 25px;
+    }
+    .market{
+        text-decoration:none;
+        font-family:'Open Sans', sans-serif ;
+        color:whitesmoke;
+    }
+    .friendsicon{
+        margin-left:10px;
+        margin-top: 25px;
+    }
+    .iconfriends{
+        width: 20px;
+        height:20px;
+    }
+    .messageicon{
+        margin-left: 10px;
+        margin-top:20px;
+    }
+    .iconmessage{
+        width: 30px;
+        height:30px;
+    }
+    .iconnotifications{
+        width: 25px;
+        height: 25px;
+    }
+    .notificationicon{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .iconsettings{
+        width: 25px;
+        height: 25px;
+    }
+    .settingsicon{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    /* HEADER CSS */
+    .header{
+        background-color: white;
+        margin-left:60px ;
+        width: 945px;
+        height: 530px;
+        position: absolute;
+    }
+    .header img{
+
+        position: absolute;
+
+
+    }
+    .backgroundimg{
+        width: 945px;
+        height: 470px;
+        z-index: 1;
+    }
+    .portraitimg{
+        width: 200px;
+        height: 200px;
+        z-index:2;
+        border-radius: 100px 100px 100px 100px;
+        border-bottom: 5px solid rgb(233,235,238);
+        border-left: 5px solid rgb(233,235,238);
+        border-right: 5px solid rgb(233,235,238);
+        border-top: 5px solid rgb(233,235,238);
+        margin-top: 290px;
+        margin-left: 50px;
+    }
+    .textbar{
+        margin-top: 480px;
+        margin-left: 270px;
+        display: flex;
+    }
+    .textbar a{
+        text-decoration: none;
+        color:rgb(66,103,178);
+        font-family: 'Open Sans', sans-serif ;
+        font-size: 1.5rem;
+    }
+    .secondseparator{
+        margin-left: 10px;
+        border-left: 1px solid rgba(148, 145, 145, 0.267);
+        height:50px;
+    }
+    .secondseparator2{
+        margin-left: 20px;
+        border-left: 1px solid rgba(148, 145, 145, 0.267);
+        height:50px;
+    }
+    .timelinebtn{
+        margin-left: 30px;
+    }
+    .aboutbtn{
+        margin-left: 30px;
+    }
+    .friendsbtn{
+        margin-left: 30px;
+    }
+    .photosbtn{
+        margin-left: 30px;
+    }
+    .morebtn{
+        margin-left: 30px;
+    }
+
+
+    </style>
 </head>
 <body>
+    <!-- Navbar -->
+
+    <!-- <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Always expand</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
     
-    <div><h1>Hello This Is Just A Sample Text</h1></div>
+          <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+            <form>
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav> -->
+
+      <nav class="navbar">
+           <div class="log">
+            <a  class="logo" href="/"><img src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-facebook-social-media-justicon-flat-justicon.png" width="40px" height="40px"/></a>
+            </div> 
+
+            <div class="search">
+                <form >
+                    <input class="searchbar" type="search" placeholder="Search On facebook">
+                </form>
+            </div>
+
+            <div class="sneakpic"><img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-user-internet-security-vitaliy-gorbachev-flat-vitaly-gorbachev.png"/></div>
+            <div class="secondaryName"><a class="linkprofile" href="/">George</a></div>
+            
+            <div class="separatorbar"></div>
+
+            <div class="homelink"><a class="linkhome" href="/">Home</a></div>
+
+            <div class="separatorbar"></div>
+
+            <div class="marketlink"><a class="market" href="/">Marketplace</a></div>
+
+            <div class="separatorbar"></div>
+
+            <div class="friendsicon"><a href="/"><img class="iconfriends" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-users-mintab-for-ios-becris-lineal-becris.png"/></a></div>
+
+            <div class="messageicon"><a href="/"><img class="iconmessage" src="https://img.icons8.com/color/48/000000/facebook-messenger--v1.png"/></a></div>
+
+            <div class="notificationicon"><a href="/"><svg class="iconnotifications" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="64" height="64"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M129,1.34375c-23.00611,0 -41.65625,18.65014 -41.65625,41.65625c0,23.00611 18.65014,41.65625 41.65625,41.65625c23.00611,0 41.65625,-18.65014 41.65625,-41.65625c-0.02573,-22.99545 -18.6608,-41.63052 -41.65625,-41.65625zM138.40625,61.8125c0,2.2264 -1.80485,4.03125 -4.03125,4.03125c-2.2264,0 -4.03125,-1.80485 -4.03125,-4.03125v-33.59375h-6.71875c-2.2264,0 -4.03125,-1.80485 -4.03125,-4.03125c0,-2.2264 1.80485,-4.03125 4.03125,-4.03125h10.75c2.22616,0.00058 4.03067,1.80509 4.03125,4.03125z" fill="#448aff"></path><path d="M143.77746,116.09411v-22.02944c-0.01618,-2.21485 -1.81623,-4.00181 -4.03114,-4.00181c-2.21491,0 -4.01497,1.78696 -4.03114,4.00181v24.18686c0.00023,1.34778 0.67387,2.60632 1.79525,3.354c7.40782,4.01046 12.57291,11.19054 14.01977,19.4891h-141.81448c1.46755,-8.28985 6.6268,-15.4618 14.01977,-19.4891c1.12133,-0.74771 1.79492,-2.00624 1.79512,-3.354v-37.62414c0.03443,-30.41235 24.67992,-55.05784 55.09227,-55.09227c2.21485,-0.01618 4.00181,-1.81623 4.00181,-4.03114c0,-2.21491 -1.78696,-4.01497 -4.00181,-4.03114c-3.92369,0.00389 -7.83849,0.37318 -11.69369,1.10308c0.92294,-3.71155 3.55003,-6.76622 7.08165,-8.23425c3.53162,-1.46803 7.54997,-1.17575 10.83199,0.78788c1.90705,1.14262 4.37916,0.52553 5.52552,-1.37927c1.14636,-1.90481 0.53414,-4.37812 -1.36841,-5.52822c-6.11569,-3.65116 -13.70363,-3.8062 -19.96336,-0.4079c-6.25973,3.3983 -10.26312,9.84607 -10.53265,16.96365c-25.68934,8.66501 -42.99952,32.73827 -43.03561,59.84958v35.46672c-10.01415,6.25616 -16.10576,17.22384 -16.12457,29.03156c0.0005,2.22619 1.80506,4.03075 4.03125,4.03125h50.06735c1.96525,12.38315 12.6424,21.49943 25.18053,21.49943c12.53813,0 23.21528,-9.11628 25.18053,-21.49943h50.06748c2.22619,-0.0005 4.03075,-1.80506 4.03125,-4.03125c-0.00011,-18.61182 -15.87146,-28.75542 -16.12468,-29.03156zM80.62288,162.59397c-8.08606,-0.01423 -15.1077,-5.57082 -16.97997,-13.43715h33.95995c-1.87226,7.86634 -8.89391,13.42294 -16.97997,13.43715z" fill="#000000"></path><path d="M33.59289,118.2514c0.00052,2.22618 1.80507,4.03073 4.03125,4.03125h85.99761c2.21485,-0.01618 4.00181,-1.81623 4.00181,-4.03114c0,-2.21491 -1.78696,-4.01497 -4.00181,-4.03114h-85.99772c-2.22606,0.00058 -4.0305,1.80498 -4.03114,4.03104z" fill="#000000"></path></g></g></svg></a>
+            </div>
+
+            <div class="settingsicon"><a href="/"><svg class="iconsettings" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="24" height="24"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#000000"><path d="M69.27311,14.33333l-3.51335,18.08464c-5.90653,2.22752 -11.33046,5.34987 -16.08301,9.25228l-17.37077,-5.99089l-16.74089,28.97461l13.91341,12.09375c-0.53487,3.28395 -0.81185,6.32717 -0.81185,9.25228c0,2.9295 0.28528,5.96715 0.81185,9.25228v0.014l-13.91341,12.09375l16.74089,28.96061l17.35677,-5.97689c4.75299,3.90454 10.18919,7.00948 16.097,9.23828l3.51335,18.08464h33.45377l3.51335,-18.08464c5.91039,-2.22897 11.32824,-5.34628 16.083,-9.25227l17.37077,5.99088l16.72689,-28.96061l-13.89941,-12.10775c0.53486,-3.28395 0.81185,-6.32717 0.81185,-9.25228c0,-2.92072 -0.27857,-5.95999 -0.81185,-9.23828v-0.014l13.91341,-12.10775l-16.74088,-28.96061l-17.35678,5.97689c-4.75298,-3.90453 -10.18919,-7.00948 -16.097,-9.23828l-3.51335,-18.08464zM81.08691,28.66667h9.82617l2.78548,14.33333l7.47461,2.82747c4.50543,1.69806 8.5533,4.02927 12.06575,6.91471l6.18685,5.06706l13.77344,-4.73112l4.91308,8.49642l-11.00195,9.57422l1.25976,7.88054v0.014c0.43823,2.68706 0.62989,4.94121 0.62989,6.9567c0,2.0155 -0.19164,4.26931 -0.62989,6.9567l-1.27376,7.88053l11.00195,9.57422l-4.91309,8.51042l-13.75944,-4.74511l-6.20084,5.08105c-3.51245,2.88544 -7.54633,5.21665 -12.05175,6.91472h-0.014l-7.4746,2.82747l-2.78548,14.33333h-9.81218l-2.78548,-14.33333l-7.47461,-2.82747c-4.50544,-1.69806 -8.5533,-4.02927 -12.06575,-6.91472l-6.18685,-5.06706l-13.77344,4.73112l-4.91309,-8.49642l11.01595,-9.58822l-1.27376,-7.85254v-0.014c-0.43195,-2.69874 -0.62988,-4.95921 -0.62988,-6.9707c0,-2.0155 0.19165,-4.26931 0.62988,-6.9567l1.27376,-7.88053l-11.01595,-9.57422l4.91309,-8.51042l13.77344,4.74512l6.18685,-5.08105c3.51245,-2.88545 7.56032,-5.21665 12.06575,-6.91471l7.47461,-2.82747zM86,57.33333c-15.74175,0 -28.66667,12.92492 -28.66667,28.66667c0,15.74175 12.92492,28.66667 28.66667,28.66667c15.74175,0 28.66667,-12.92492 28.66667,-28.66667c0,-15.74175 -12.92492,-28.66667 -28.66667,-28.66667zM86,71.66667c7.96559,0 14.33333,6.36775 14.33333,14.33333c0,7.96559 -6.36775,14.33333 -14.33333,14.33333c-7.96559,0 -14.33333,-6.36775 -14.33333,-14.33333c0,-7.96559 6.36775,-14.33333 14.33333,-14.33333z"></path></g></g></svg></a></div>
+        </nav>
+
+        <!-- ***HEADER*** -->
+        <div class="header">
+            <img class="backgroundimg" src="https://images.unsplash.com/photo-1612392987205-c53f0200a175?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="family hugging">
+
+            <img class="portraitimg" src="https://images.unsplash.com/photo-1521119989659-a83eee488004?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=423&q=80" alt="">
+
+
+            <div class="textbar">
+                <div class="secondseparator"></div>
+                <div class="timeline"><a href="/" class="timelinebtn">Timeline</a></div>
+
+                <div class="secondseparator2"></div>
+
+                <div class="about"><a href="/" class="aboutbtn">About</a></div>
+
+                <div class="secondseparator2"></div>
+
+                <div class="friends"><a href="/"class="friendsbtn">Friends</a></div>
+
+                <div class="secondseparator2"></div>
+
+                <div class="photos"><a href="/" class="photosbtn">Photos</a></div>
+
+                <div class="secondseparator2"></div>
+
+                <div class="more"><a class="morebtn" href="/"></a></div>
+
+
+            </div>
+        </div>
+
 
 </body>
 </html>
